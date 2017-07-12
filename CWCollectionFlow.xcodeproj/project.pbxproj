@@ -15,8 +15,8 @@
 		1E0B8F0C1F0F30B10003530C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0B8F0A1F0F30B10003530C /* LaunchScreen.storyboard */; };
 		1E0B8F171F0F30B10003530C /* CWCollectionFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B8F161F0F30B10003530C /* CWCollectionFlowTests.m */; };
 		1E0B8F221F0F30B10003530C /* CWCollectionFlowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B8F211F0F30B10003530C /* CWCollectionFlowUITests.m */; };
-		1E0B8F351F0F36D40003530C /* CWCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B8F341F0F36D40003530C /* CWCollectionLayout.m */; };
-		1E0B8F381F0F5C860003530C /* CWCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B8F371F0F5C860003530C /* CWCollectionView.m */; };
+		1EDBC82B1F15CA6500C9BFF3 /* CWCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDBC8281F15CA6500C9BFF3 /* CWCollectionLayout.m */; };
+		1EDBC82C1F15CA6500C9BFF3 /* CWCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDBC82A1F15CA6500C9BFF3 /* CWCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		1E0B8F1D1F0F30B10003530C /* CWCollectionFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWCollectionFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0B8F211F0F30B10003530C /* CWCollectionFlowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWCollectionFlowUITests.m; sourceTree = "<group>"; };
 		1E0B8F231F0F30B10003530C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E0B8F331F0F36D40003530C /* CWCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWCollectionLayout.h; sourceTree = "<group>"; };
-		1E0B8F341F0F36D40003530C /* CWCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWCollectionLayout.m; sourceTree = "<group>"; };
-		1E0B8F361F0F5C860003530C /* CWCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWCollectionView.h; sourceTree = "<group>"; };
-		1E0B8F371F0F5C860003530C /* CWCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWCollectionView.m; sourceTree = "<group>"; };
+		1EDBC8271F15CA6500C9BFF3 /* CWCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWCollectionLayout.h; sourceTree = "<group>"; };
+		1EDBC8281F15CA6500C9BFF3 /* CWCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWCollectionLayout.m; sourceTree = "<group>"; };
+		1EDBC8291F15CA6500C9BFF3 /* CWCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWCollectionView.h; sourceTree = "<group>"; };
+		1EDBC82A1F15CA6500C9BFF3 /* CWCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		1E0B8EF01F0F30B10003530C = {
 			isa = PBXGroup;
 			children = (
-				1E0B8F2F1F0F31DE0003530C /* CustomCollectionView */,
+				1EDBC8261F15CA6500C9BFF3 /* CustomCollectionView */,
 				1E0B8EFB1F0F30B10003530C /* CWCollectionFlow */,
 				1E0B8F151F0F30B10003530C /* CWCollectionFlowTests */,
 				1E0B8F201F0F30B10003530C /* CWCollectionFlowUITests */,
@@ -147,16 +147,15 @@
 			path = CWCollectionFlowUITests;
 			sourceTree = "<group>";
 		};
-		1E0B8F2F1F0F31DE0003530C /* CustomCollectionView */ = {
+		1EDBC8261F15CA6500C9BFF3 /* CustomCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				1E0B8F331F0F36D40003530C /* CWCollectionLayout.h */,
-				1E0B8F341F0F36D40003530C /* CWCollectionLayout.m */,
-				1E0B8F361F0F5C860003530C /* CWCollectionView.h */,
-				1E0B8F371F0F5C860003530C /* CWCollectionView.m */,
+				1EDBC8271F15CA6500C9BFF3 /* CWCollectionLayout.h */,
+				1EDBC8281F15CA6500C9BFF3 /* CWCollectionLayout.m */,
+				1EDBC8291F15CA6500C9BFF3 /* CWCollectionView.h */,
+				1EDBC82A1F15CA6500C9BFF3 /* CWCollectionView.m */,
 			);
-			name = CustomCollectionView;
-			path = XXX;
+			path = CustomCollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,10 +295,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E0B8F041F0F30B10003530C /* ViewController.m in Sources */,
-				1E0B8F381F0F5C860003530C /* CWCollectionView.m in Sources */,
+				1EDBC82C1F15CA6500C9BFF3 /* CWCollectionView.m in Sources */,
 				1E0B8F011F0F30B10003530C /* AppDelegate.m in Sources */,
 				1E0B8EFE1F0F30B10003530C /* main.m in Sources */,
-				1E0B8F351F0F36D40003530C /* CWCollectionLayout.m in Sources */,
+				1EDBC82B1F15CA6500C9BFF3 /* CWCollectionLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
