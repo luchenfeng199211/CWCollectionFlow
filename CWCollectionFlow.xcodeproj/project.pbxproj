@@ -87,7 +87,7 @@
 		1E0B8EF01F0F30B10003530C = {
 			isa = PBXGroup;
 			children = (
-				1E0B8F2F1F0F31DE0003530C /* XXX */,
+				1E0B8F2F1F0F31DE0003530C /* CustomCollectionView */,
 				1E0B8EFB1F0F30B10003530C /* CWCollectionFlow */,
 				1E0B8F151F0F30B10003530C /* CWCollectionFlowTests */,
 				1E0B8F201F0F30B10003530C /* CWCollectionFlowUITests */,
@@ -147,7 +147,7 @@
 			path = CWCollectionFlowUITests;
 			sourceTree = "<group>";
 		};
-		1E0B8F2F1F0F31DE0003530C /* XXX */ = {
+		1E0B8F2F1F0F31DE0003530C /* CustomCollectionView */ = {
 			isa = PBXGroup;
 			children = (
 				1E0B8F331F0F36D40003530C /* CWCollectionLayout.h */,
@@ -155,6 +155,7 @@
 				1E0B8F361F0F5C860003530C /* CWCollectionView.h */,
 				1E0B8F371F0F5C860003530C /* CWCollectionView.m */,
 			);
+			name = CustomCollectionView;
 			path = XXX;
 			sourceTree = "<group>";
 		};
@@ -536,6 +537,7 @@
 				1E0B8F281F0F30B10003530C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E0B8F291F0F30B10003530C /* Build configuration list for PBXNativeTarget "CWCollectionFlowTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +546,7 @@
 				1E0B8F2B1F0F30B10003530C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E0B8F2C1F0F30B10003530C /* Build configuration list for PBXNativeTarget "CWCollectionFlowUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +555,7 @@
 				1E0B8F2E1F0F30B10003530C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
